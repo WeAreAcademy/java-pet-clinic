@@ -7,19 +7,20 @@ Petclinic is a [Spring Boot](https://spring.io/guides/gs/spring-boot) applicatio
 
 ### Steps:
 
-Choose 1 or 2.
 
-1) Inside IntelliJ IDEA
-   Select the File menu, New, and choose Project from version control. Use https://github.com/WeAreAcademy/java-pet-clinic.git as the URL.
 
-2) On the command line run:
-    ```
-    git clone https://github.com/WeAreAcademy/java-pet-clinic.git
-    ```
+1) Choose a or b.
+   a) EITHER Inside IntelliJ IDEA
+      Select the File menu, New, and choose Project from version control. Use https://github.com/WeAreAcademy/java-pet-clinic.git as the URL.
 
-3) Inside Intellij A run configuration named `PetClinicApplication` should have been created for you, otherwise, run the application by right-clicking on the `PetClinicApplication` main class and choosing `Run 'PetClinicApplication'`.
+   b) OR On the command line run:
+       ```
+       git clone https://github.com/WeAreAcademy/java-pet-clinic.git
+       ```
 
-4) Navigate to Petclinic
+2) Inside Intellij a run configuration named `PetClinicApplication` should have been created for you, otherwise, run the application by right-clicking on the `PetClinicApplication` main class and choosing `Run 'PetClinicApplication'`.
+
+3) Navigate to Petclinic
 
    Visit [http://localhost:8080](http://localhost:8080) in your browser.
 
@@ -32,15 +33,8 @@ Or you can run it from Maven directly using the Spring Boot Maven plugin. If you
 ./mvnw spring-boot:run
 ```
 
-## Working with Petclinic in your IDE
-
-### Prerequisites
+## Prerequisites
 The following items should be installed in your system:
 * Java 17 or newer (full JDK, not a JRE).
 * [git command line tool](https://help.github.com/articles/set-up-git)
-* Your preferred IDE 
-  * Eclipse with the m2e plugin. Note: when m2e is available, there is an m2 icon in `Help -> About` dialog. If m2e is
-  not there, follow the install process [here](https://www.eclipse.org/m2e/)
-  * [Spring Tools Suite](https://spring.io/tools) (STS)
-  * [IntelliJ IDEA](https://www.jetbrains.com/idea/)
-  * [VS Code](https://code.visualstudio.com)
+* [IntelliJ IDEA](https://www.jetbrains.com/idea/)
