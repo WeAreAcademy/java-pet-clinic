@@ -7,12 +7,12 @@ Petclinic is a [Spring Boot](https://spring.io/guides/gs/spring-boot) applicatio
 
 ### Steps:
 
-
+The following instructions assume you're not going to make a fork of the project.  If you want to do so, that's fine - just be sure to use the URL of your fork, instead in the following:
 
 1) Choose a or b.
    
    a) EITHER Inside IntelliJ IDEA
-      Select the File menu, New, and choose Project from version control. Use https://github.com/WeAreAcademy/java-pet-clinic.git as the URL.
+      Select the File menu, New, and choose Project from version control. Use https://github.com/WeAreAcademy/java-pet-clinic.git as the URL.  
 
    b) OR On the command line run:
    
@@ -20,9 +20,12 @@ Petclinic is a [Spring Boot](https://spring.io/guides/gs/spring-boot) applicatio
        git clone https://github.com/WeAreAcademy/java-pet-clinic.git
        ```
    
-3) Inside Intellij a run configuration named `PetClinicApplication` should have been created for you, otherwise, run the application by right-clicking on the `PetClinicApplication` main class and choosing `Run 'PetClinicApplication'`.  _Note that it may take a couple of minutes for this option to be available._
+2) Inside Intellij, _after a couple of minutes_, right-click on the `PetClinicApplication` main class and choose `Run 'PetClinicApplication'`.  
+Path is: `src/main/java/org/springframework/samples/petclinic/PetClinicApplication.java`
 
-5) Navigate to Petclinic
+Alternatively, a run configuration named `PetClinicApplication` should be created for you (again it may take some time).
+
+3) Navigate to Petclinic as follows:
 
    Visit [http://localhost:8080](http://localhost:8080) in your browser.
 
